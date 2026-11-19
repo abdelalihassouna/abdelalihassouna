@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Abdelali Hassouna — Data &amp; AI Lead">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081629"/>
+      <stop offset="0.55" stop-color="#0C2547"/>
+      <stop offset="1" stop-color="#0A1D38"/>
+    </linearGradient>
+    <pattern id="minor" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#6FA8FF" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <pattern id="major" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#6FA8FF" stroke-opacity="0.16" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.8" cy="0.45" r="0.45">
+      <stop offset="0" stop-color="#2F6FD6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2F6FD6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB547" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFB547" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="420" rx="18"/></clipPath>
+    <clipPath id="typeClip">
+      <rect x="70" y="250" width="0" height="34">
+        <animate attributeName="width" from="0" to="560" begin="0.4s" dur="2.6s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <style>
+      .sans{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .edge{stroke:#8FC1FF;stroke-width:1.4;fill:none}
+      .hidden{stroke:#8FC1FF;stroke-opacity:.45;stroke-width:1;stroke-dasharray:4 4;fill:none}
+      .floor{stroke:#8FC1FF;stroke-opacity:.55;stroke-width:1;fill:none}
+      .link{stroke:#FFB547;stroke-width:1.3;stroke-dasharray:3 7;fill:none;animation:flow 1.6s linear infinite}
+      .node{fill:#FFB547}
+      .halo{fill:none;stroke:#FFB547;stroke-width:1.2;transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-out infinite}
+      .d2{animation-delay:.7s}.d3{animation-delay:1.4s}.d4{animation-delay:2.1s}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes flow{to{stroke-dashoffset:-20}}
+      @keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.2);opacity:0}}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#minor)"/>
+    <rect width="1200" height="420" fill="url(#major)"/>
+    <rect width="1200" height="420" fill="url(#glow)"/>
+
+    <!-- registration marks -->
+    <g stroke="#FFB547" stroke-width="2" fill="none" stroke-linecap="square">
+      <path d="M24 46V24H46"/><path d="M1154 24H1176V46"/>
+      <path d="M24 374V396H46"/><path d="M1154 396H1176V374"/>
+    </g>
+
+    <!-- sheet info -->
+    <text x="1150" y="44" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#8FC1FF" fill-opacity="0.7">SHEET 01 · PARMA, IT · REV 2026</text>
+
+    <!-- LEFT: identity -->
+    <text x="70" y="86" class="mono" font-size="15" letter-spacing="3" fill="#FFB547">&lt;DATA &amp; AI LEAD /&gt;</text>
+    <text x="66" y="160" class="sans" font-size="66" font-weight="800" letter-spacing="3" fill="#FFFFFF">ABDELALI</text>
+    <text x="66" y="230" class="sans" font-size="66" font-weight="800" letter-spacing="3" fill="none" stroke="#FFB547" stroke-width="1.8">HASSOUNA</text>
+
+    <g clip-path="url(#typeClip)">
+      <text x="70" y="274" class="mono" font-size="19" fill="#7DD3FC">&gt; turning construction data into AI agents</text>
+    </g>
+    <rect class="cursor" x="70" y="258" width="11" height="20" fill="#7DD3FC">
+      <animate attributeName="x" from="70" to="560" begin="0.4s" dur="2.6s" fill="freeze"/>
+    </rect>
+
+    <text x="70" y="318" class="sans" font-size="15.5" fill="#B7C6DE">AI Factory @ Impresa Pizzarotti  ·  Databricks ML Certified Instructor  ·  AI Trainer</text>
+
+    <g class="mono" font-size="12" letter-spacing="1.5" fill="#DCE8FA">
+      <rect x="70" y="344" width="64" height="28" rx="4" fill="none" stroke="#8FC1FF" stroke-opacity=".6"/>
+      <text x="102" y="363" text-anchor="middle">RAG</text>
+      <rect x="144" y="344" width="104" height="28" rx="4" fill="none" stroke="#8FC1FF" stroke-opacity=".6"/>
+      <text x="196" y="363" text-anchor="middle">AI AGENTS</text>
+      <rect x="258" y="344" width="122" height="28" rx="4" fill="none" stroke="#8FC1FF" stroke-opacity=".6"/>
+      <text x="319" y="363" text-anchor="middle">DOCUMENT AI</text>
+      <rect x="390" y="344" width="112" height="28" rx="4" fill="none" stroke="#FFB547" stroke-opacity=".9"/>
+      <text x="446" y="363" text-anchor="middle" fill="#FFB547">DATABRICKS</text>
+    </g>
+
+    <!-- RIGHT: blueprint tower with AI layer -->
+    <!-- hidden back edges -->
+    <path class="hidden" d="M960 240V90 M839 310L960 240L1081 310"/>
+    <!-- floors -->
+    <path class="floor" d="M839 280L960 350L1081 280 M839 250L960 320L1081 250 M839 220L960 290L1081 220 M839 190L960 260L1081 190"/>
+    <!-- windows grid on front faces -->
+    <g stroke="#8FC1FF" stroke-opacity=".22" stroke-width="1">
+      <path d="M879 333V183 M919 356V206 M1001 356V206 M1041 333V183"/>
+    </g>
+    <!-- main edges -->
+    <path class="edge" d="M839 310V160 M960 380V230 M1081 310V160 M839 310L960 380L1081 310"/>
+    <!-- roof -->
+    <path class="edge" d="M839 160L960 90L1081 160L960 230Z" fill="#8FC1FF" fill-opacity="0.06"/>
+
+    <!-- scan line -->
+    <g>
+      <rect x="820" y="0" width="280" height="40" fill="url(#scan)">
+        <animate attributeName="y" values="60;350;60" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <line x1="820" x2="1100" y1="100" y2="100" stroke="#FFB547" stroke-width="1.2" stroke-opacity=".8">
+        <animate attributeName="y1" values="100;390;100" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="100;390;100" dur="6s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <!-- AI agent network above the roof -->
+    <path class="link" d="M960 90L960 62 M839 160L790 118 M1081 160L1128 116 M960 62L882 74 M960 62L1040 74 M882 74L790 118 M1040 74L1128 116 M882 74L960 90 M1040 74L960 90"/>
+    <g>
+      <circle class="node" cx="960" cy="62" r="5"/><circle class="halo" cx="960" cy="62" r="5"/>
+      <circle class="node" cx="882" cy="74" r="4"/><circle class="halo d2" cx="882" cy="74" r="4"/>
+      <circle class="node" cx="1040" cy="74" r="4"/><circle class="halo d3" cx="1040" cy="74" r="4"/>
+      <circle class="node" cx="790" cy="118" r="3.5"/><circle class="halo d4" cx="790" cy="118" r="3.5"/>
+      <circle class="node" cx="1128" cy="116" r="3.5"/><circle class="halo d2" cx="1128" cy="116" r="3.5"/>
+      <circle cx="839" cy="160" r="3" fill="#8FC1FF"/><circle cx="1081" cy="160" r="3" fill="#8FC1FF"/><circle cx="960" cy="90" r="3" fill="#8FC1FF"/>
+    </g>
+
+    <!-- dimension lines -->
+    <g stroke="#8FC1FF" stroke-opacity=".7" stroke-width="1" fill="none">
+      <path d="M800 160V310 M794 160H806 M794 310H806"/>
+      <path d="M839 398H1081 M839 392V404 M1081 392V404"/>
+    </g>
+    <text transform="translate(788 235) rotate(-90)" text-anchor="middle" class="mono" font-size="10" letter-spacing="2" fill="#8FC1FF">AI FACTORY</text>
+    <text x="960" y="394" text-anchor="middle" class="mono" font-size="10" letter-spacing="2" fill="#8FC1FF">EST. 2023</text>
+  </g>
+</svg>
