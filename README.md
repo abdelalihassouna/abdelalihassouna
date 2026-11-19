@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Ali (Abdelali Hassouna)
 
-<!--
-**abdelalihassouna/abdelalihassouna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Data & AI Lead at **Impresa Pizzarotti** (Parma, Italy), where I built the company's AI capability from scratch and now lead its internal AI Factory.
+Freelance **AI trainer and consultant** · Databricks ML Certified Instructor.
 
-Here are some ideas to get you started:
+### What I work on
+- **AI agents & RAG** for enterprise documents and processes
+- **Document AI**: extracting data from invoices, compliance and construction documents
+- **LLM-powered supplier compliance platforms**
+- **Databricks & MLOps**
+- **Training**: corporate courses on AI engineering, Databricks and AI-assisted development
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Featured public projects
+- [AgenticRAG](https://github.com/abdelalihassouna/AgenticRAG) – document search combining RAG and web search
+- [UrbanEye](https://github.com/abdelalihassouna/UrbanEye) – computer vision for traffic analysis
+- [Data Analysis with Python & Power BI](https://github.com/abdelalihassouna/Full-Data-Analysis-Project-using-Python-Power-BI)
+
+Most of my work lives in private repositories.
+
+📧 abdelalihassouna7@gmail.com
